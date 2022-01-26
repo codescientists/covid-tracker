@@ -34,8 +34,6 @@ export const sortData = (data) => {
 };
 
 export const showDataOnMap = (data, casesType = "cases") => {
-  const center = [51.505, -0.09];
-  const fillBlueOptions = { fillColor: "blue" };
   const redOptions = { color: "red" };
 
   data.map((country) => (
